@@ -10,10 +10,10 @@ import bpy
 
 class MEUADDON_OT_hello(bpy.types.Operator):
     bl_idname = "meu_addon.hello"
-    bl_label = "Dizer olá"
+    bl_label = "Dizer ola"
 
     def execute(self, context):
-        self.report({'INFO'}, "Olá, Blender!")
+        self.report({'INFO'}, "Ola, Blender!")
         return {'FINISHED'}
 
 def register():
